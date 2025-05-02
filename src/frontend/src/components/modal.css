@@ -1,0 +1,85 @@
+.modal{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    z-index: 999;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.modal .header-div{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.modal *{
+    margin-top: 0.5vh;
+}
+.modal input, select{
+    border-radius: 8px;
+    border:1px solid black;
+    padding:5px;
+    min-width:90%;
+}
+
+
+
+.modal .header-div text{
+    cursor: pointer;
+    margin-left:auto;
+}
+
+.modal .buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top:20px;
+}
+.modal .buttons .submit-button{
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 7px;
+    float: right;
+    padding:9px;
+    margin-left:2px;
+    margin-right: 0px;
+}
+
+.modal .buttons .submit-button:hover{
+    background-color:darkgreen;
+    border-color: darkgreen;
+    cursor:pointer;
+}
+
+.modal .buttons .delete-button{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 7px;
+    padding:9px;
+    margin-left:2px;
+}
+
+.modal .buttons .delete-button:hover{
+    background-color:darkred;
+    border-color: darkred;
+    cursor:pointer;
+}
+
+
+
+.overlay{
+    position: fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,.7);
+    z-index: 999;
+}

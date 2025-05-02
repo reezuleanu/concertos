@@ -1,0 +1,8 @@
+.content{
+    grid-template-rows: 0.1fr 0.5fr;
+}
+
+.filler{
+    display: flex;
+    justify-content: center;
+}

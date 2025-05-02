@@ -1,0 +1,75 @@
+<mxfile host="Electron" modified="2024-07-07T10:50:24.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="lwfK7Y11z4tGUwzBigJm" version="22.0.3" type="device">
+  <diagram name="Page-1" id="DlA_o81PhtzBPM63wzH7">
+    <mxGraphModel dx="1922" dy="793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-581" y="181" width="485" height="276" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="xOuouS-hYmuE6Ms9uqf--1" target="xOuouS-hYmuE6Ms9uqf--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--17" value="efectueazǎ schimbarea în&lt;br&gt;baza de date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;" vertex="1" connectable="0" parent="xOuouS-hYmuE6Ms9uqf--11">
+          <mxGeometry x="0.1986" relative="1" as="geometry">
+            <mxPoint x="-13" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;labelBackgroundColor=default;" edge="1" parent="1" source="xOuouS-hYmuE6Ms9uqf--1" target="xOuouS-hYmuE6Ms9uqf--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-501" y="248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--16" value="notificǎ observatorul&lt;br&gt;de schimbare" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;" vertex="1" connectable="0" parent="xOuouS-hYmuE6Ms9uqf--12">
+          <mxGeometry x="-0.3655" y="-1" relative="1" as="geometry">
+            <mxPoint x="6" y="-56" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--1" value="Endpoint Django" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-561" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--2" value="Bazǎ de date" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-277" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="xOuouS-hYmuE6Ms9uqf--3" target="xOuouS-hYmuE6Ms9uqf--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--18" value="executǎ comenzi&lt;br&gt;software asupra bazei&lt;br&gt;de date" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;" vertex="1" connectable="0" parent="xOuouS-hYmuE6Ms9uqf--13">
+          <mxGeometry x="0.2564" y="-1" relative="1" as="geometry">
+            <mxPoint x="58" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;labelBackgroundColor=default;" edge="1" parent="1" source="xOuouS-hYmuE6Ms9uqf--3" target="xOuouS-hYmuE6Ms9uqf--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--19" value="executǎ comenzi hardware asupra&lt;br&gt;echipamentului" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=#000000;" vertex="1" connectable="0" parent="xOuouS-hYmuE6Ms9uqf--14">
+          <mxGeometry x="0.0183" relative="1" as="geometry">
+            <mxPoint x="93" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--3" value="Observator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-416" y="218" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--4" value="Echipament" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="111" y="218" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--7" value="Utilizator" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontColor=#000000;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-767" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.045;entryY=0.685;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#000000;" edge="1" parent="1" source="xOuouS-hYmuE6Ms9uqf--7" target="xOuouS-hYmuE6Ms9uqf--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--10" value="&lt;font color=&quot;#000000&quot;&gt;acțiune ce modificǎ o variabilǎ&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="xOuouS-hYmuE6Ms9uqf--9">
+          <mxGeometry x="-0.1684" y="-1" relative="1" as="geometry">
+            <mxPoint x="4" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xOuouS-hYmuE6Ms9uqf--15" value="&lt;font color=&quot;#000000&quot;&gt;Aplicație&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-386" y="151" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,26 @@
+.filler{
+    width: 100%;
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+    margin:2px;
+    padding:7px;
+}
+
+.filler text{
+    color:black;
+}
+
+.Programmer {
+    width:100%;
+}
+
+
+@media (max-width:600px) {
+    .filler, .Programmer {
+        max-width: 100%;
+        width:90vw;
+        margin:10px auto;
+        overflow: auto;
+
+    }
+}

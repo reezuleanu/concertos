@@ -1,0 +1,217 @@
+.Programmer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1;
+  overflow: auto;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+  padding: 2px; 
+}
+  
+  
+.Programmer .programmer-columns {
+  margin:3px;
+  align-items: center;
+}
+
+.Trigger{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index:20;
+}
+
+.Trigger .display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  text-align:center;
+  border:1px solid #d9d9d9;
+  border-radius: 2px;
+  margin: 3px;
+  margin-top: 10px;
+  color:black;
+  padding:2px;
+  min-width:6vw;
+  max-width:6vw;
+  min-height:6vh;
+  max-height:6vh;
+  overflow: hidden;
+}
+
+.Trigger .display:hover{
+  cursor:pointer
+}
+
+
+.Adder {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgreen;
+  margin: 3px;
+  border: 2px solid darkgreen;
+  border-radius: 2px;
+  margin-top: 10px;
+  text-align: center;
+  /* min-width:6vw; */
+  /* max-width:8vw; */
+  min-height:6vh;
+  /* max-height:6vh; */
+}
+
+.Adder:hover {
+  cursor:pointer
+}
+
+.export-btn{
+  color: white;
+  background-color: green;
+  border: 2px solid green;
+  border-radius: 7px;
+  float: right;
+  padding:10px;
+  margin: 10px;
+  margin-left:2px;
+  margin-right: 0px;
+}
+.export-btn:hover{
+  background-color:darkgreen;
+  border-color: darkgreen;
+  cursor:pointer;
+}
+
+.clear-btn{
+  color:red;
+  background-color: transparent;
+  border:2px solid red;
+  border-radius: 7px;
+  float:right;
+  padding:10px;
+  margin:10px;
+  margin-right:2px;
+}
+
+.clear-btn:hover{
+  background-color: #d9d9d9;
+  color:darkred;
+  border-color: darkred;
+  cursor: pointer;
+}
+
+.programmer-select{
+  display:flex;
+}
+
+.programmer-select select{
+  width:90%;
+  border-radius: 16px;
+  text-align: center;
+  padding:10px;
+  margin:10px auto;
+}
+
+.programmer-select button{
+  padding:10px 20px;
+  margin: 10px auto;
+  border-radius: 12px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.programmer-select button:hover{
+  background-color: #d9d9d9;
+  cursor:pointer;
+}
+
+
+
+/* connecting lines styles */
+.Programmer .line-and{
+  height:2px;
+  width:100%;
+  background-color: darkgrey;
+}
+
+.Programmer .line-and::before{
+  content:"";
+  height:2px;
+  width:15px;
+  display: block;
+  position:relative;
+  background-color: darkgray;
+  left:0.41vw;
+}
+
+.Programmer .line-and::after{
+  content:"";
+  height:2px;
+  width:1vw;
+  display: block;
+  position:relative;
+  background-color: darkgray;
+  right:0.41vw;
+  bottom:2px;
+}
+
+
+.Programmer .line-or-before::before{
+  content:"";
+  background-color: darkgray;
+  width:2px;
+  height:10vh;
+  display: block;
+  position:relative;
+  bottom:4.45vh;
+  /* left:0.5vw; */
+}
+
+.Programmer .line-or-before::after{
+  content:"";
+  background-color: darkgray;
+  width:1vw;
+  height:2px;
+  display:block;
+  position:relative;
+  bottom:4.7vh;
+}
+
+
+.Programmer .line-or-after::before{
+  content:"";
+  background-color: darkgray;
+  width:2px;
+  height:10vh;
+  display: block;
+  position:relative;
+  bottom:4.45vh;
+  left:1vw;
+}
+
+.Programmer .line-or-after::after{
+  content:"";
+  background-color: darkgray;
+  width:1vw;
+  height:2px;
+  display:block;
+  position:relative;
+  bottom:4.7vh;
+}
+
+@media (max-width:600px) {
+  .Adder{
+    max-width:10vw;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:2vw;
+  }
+
+  .Trigger .display{
+    min-width:10vw;
+    font-size:2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}

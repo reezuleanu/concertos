@@ -1,0 +1,25 @@
+.captain{
+    display:grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap:3px;
+}
+
+.captain .captain-button{
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.captain-button h3{
+    margin-left:20px;
+    text-align: center;
+}
+
+.captain-button button{
+    min-width: 20px;
+    min-height:10vh;
+}

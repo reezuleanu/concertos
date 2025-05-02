@@ -1,0 +1,64 @@
+<mxfile host="Electron" modified="2024-06-04T07:22:55.986Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Iqw_zJJ0QnNsYCdfkICB" version="22.0.3" type="device">
+  <diagram name="Page-1" id="DlA_o81PhtzBPM63wzH7">
+    <mxGraphModel dx="1522" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kvb3kpBLvaz-gT558j9U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="kvb3kpBLvaz-gT558j9U-1" target="kvb3kpBLvaz-gT558j9U-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-6" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cine, Ce, Când, Cum&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="23" y="-80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-7" value="&lt;font color=&quot;#000000&quot;&gt;Endpoint&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-177" y="-152" width="200" height="422" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-1" value="Are loc o acțiune asupra bazei de date" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFAFC;strokeColor=#666666;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-7" vertex="1">
+          <mxGeometry x="40" y="72" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-8" value="&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#000000&quot;&gt;Observer&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="150" y="-150" width="280" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="kvb3kpBLvaz-gT558j9U-8" source="kvb3kpBLvaz-gT558j9U-9" target="kvb3kpBLvaz-gT558j9U-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="kvb3kpBLvaz-gT558j9U-8" source="kvb3kpBLvaz-gT558j9U-9" target="kvb3kpBLvaz-gT558j9U-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-9" value="îndeplineste vreun trigger al evenimentului?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=none;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-8" vertex="1">
+          <mxGeometry x="25" y="160" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-2" value="Cautǎ triggers pentru eveniment" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFAFC;strokeColor=#666666;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-8" vertex="1">
+          <mxGeometry x="80" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="kvb3kpBLvaz-gT558j9U-8" source="kvb3kpBLvaz-gT558j9U-2" target="kvb3kpBLvaz-gT558j9U-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-18" value="Da" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=none;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-8" vertex="1">
+          <mxGeometry x="190" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" parent="kvb3kpBLvaz-gT558j9U-8" source="kvb3kpBLvaz-gT558j9U-19" target="kvb3kpBLvaz-gT558j9U-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-19" value="Nu" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=none;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-8" vertex="1">
+          <mxGeometry x="10" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-26" value="end" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFAFC;strokeColor=#666666;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-8" vertex="1">
+          <mxGeometry x="10" y="370" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" parent="1" source="kvb3kpBLvaz-gT558j9U-18" target="kvb3kpBLvaz-gT558j9U-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-12" value="&lt;font style=&quot;background-color: rgb(255, 255, 255);&quot; color=&quot;#000000&quot;&gt;Action&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="490" y="-150" width="280" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-24" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;Cine, Ce, Când, Cum&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="kvb3kpBLvaz-gT558j9U-12" vertex="1">
+          <mxGeometry x="-60" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kvb3kpBLvaz-gT558j9U-16" value="Executǎ acțiunea" style="rounded=0;whiteSpace=wrap;html=1;glass=0;shadow=0;fillColor=#FFFAFC;strokeColor=#666666;fontColor=#333333;" parent="kvb3kpBLvaz-gT558j9U-12" vertex="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

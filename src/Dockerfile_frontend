@@ -1,0 +1,24 @@
+FROM node:21
+
+# create environment
+WORKDIR /frontend
+COPY /public /frontend/public
+COPY src/ /frontend/src
+COPY package.json /frontend/
+
+ENV BACKEND_IP="127.0.0.1"
+ENV BACKEND_PORT=8000
+
+# create .env file
+RUN echo "REACT_APP_BACKEND_IP=$BACKEND_IP" > .env
+RUN echo "REACT_APP_BACKEND_PORT=$BACKEND_PORT" >> .env
+
+# install dependencies
+RUN npm install
+RUN npm build
+
+EXPOSE 80
+
+CMD ["serve", "-s","build"]
+
+
